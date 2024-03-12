@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mydiv">
+        <h2>Calculadora</h2>
+        <label>Digite o primeiro valor</label>
+        <br>
+        <input id="firstnumber" name="first-number" type="text"/>
+    
+        <br>
+        <label>Digite o segundo valor</label>
+        <br>
+        <input id="secondnumber" name="second-number" type="text"/>
+        <br>
+        <br>
+        
+        <input checked id="box1" name="sign-area" type="radio" value="add"><b>+</b>
+        <input id="box2" name="sign-area" type="radio" value="sub"><b>-</b>
+        <input id="box3" name="sign-area" type="radio" value="mult" ><b>*</b>
+        <input id="box4" name="sign-area" type="radio" value="div" ><b>/</b>
+        <br>
+        <br>
+        <button type="button" onclick="onSubmit()">Calcular</button>       
+        <br>
+        <br>
+        <h2><span id="result"></span></h2>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
